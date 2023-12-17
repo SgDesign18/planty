@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form Plugin &#8211; Fastest Contact Form Builder Plugin for WordPress by Fluent Forms - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-04 19:22:58+0000\n"
+"PO-Revision-Date: 2023-12-17 01:32:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,905 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.11\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Contact Form Plugin &#8211; Fastest Contact Form Builder Plugin for WordPress by Fluent Forms - Stable (latest release)\n"
+
+#: app/Services/Form/FormValidationService.php:306
+msgid "The given data was invalid"
+msgstr "La valeur donnée est invalide"
+
+#: app/Modules/Registerer/TranslationString.php:1126
+msgid "Auto Width"
+msgstr "Largeur auto"
+
+#: app/Views/admin/globalSettings/menu.php:80
+msgid "Validation Messages"
+msgstr "Messages de validation"
+
+#: app/Services/FormBuilder/CountryNames.php:212
+msgid "Sao Tome and Principe"
+msgstr "Sao Tomé-et-Principe"
+
+#: app/Services/FormBuilder/CountryNames.php:72
+msgid "Democratic Republic of the Congo (Kinshasa)"
+msgstr "République démocratique du Congo (Kinshasa)"
+
+#: app/Services/FormBuilder/CountryNames.php:71
+msgid "Republic of the Congo (Brazzaville)"
+msgstr "République du Congo (Brazzaville)"
+
+#: app/Services/Form/FormValidationService.php:745
+msgid "Sorry! You can't submit a form from the country you are residing."
+msgstr "Désolé, vous ne pouvez pas envoyer de formulaire à partir de votre pays de résidence."
+
+#: app/Services/Form/FormValidationService.php:689
+msgid "Sorry! There is an error in your geocode IP address settings. Please check the token"
+msgstr "Désolé ! Il y a une erreur dans les réglages de l’adresse IP de votre géocode. Veuillez vérifier le jeton"
+
+#: app/Modules/Registerer/TranslationString.php:868
+msgid "Allow the submission if match"
+msgstr "Autoriser les envois en cas de concordance"
+
+#: app/Modules/Registerer/TranslationString.php:867
+msgid "Fail the submission if match"
+msgstr "Refuser un envoi en cas de correspondance"
+
+#: app/Modules/Registerer/TranslationString.php:866
+msgid "Set error message when keywords are invalid."
+msgstr "Définir un message d’erreur lorsque les mots-clés ne sont pas valides."
+
+#: app/Modules/Registerer/TranslationString.php:865
+msgid "Keywords Restriction Error Message"
+msgstr "Message d’erreur de restriction des mots-clés"
+
+#: app/Modules/Registerer/TranslationString.php:864
+msgid "Add multiple keywords separated by comma to restrict submission."
+msgstr "Ajoutez plusieurs mots-clés séparés par une virgule pour restreindre les envois."
+
+#: app/Modules/Registerer/TranslationString.php:863
+msgid "Add Keywords"
+msgstr "Ajouter des mots clés"
+
+#: app/Modules/Registerer/TranslationString.php:862
+msgid "Set error message when selected country is restricted."
+msgstr "Définir un message d’erreur lorsque le pays sélectionné est soumis à des restrictions."
+
+#: app/Modules/Registerer/TranslationString.php:861
+msgid "Country Error Message"
+msgstr "Message d’erreur du pays"
+
+#: app/Modules/Registerer/TranslationString.php:860
+msgid "Select country to set restriction."
+msgstr "Sélectionnez le pays pour définir la restriction."
+
+#: app/Modules/Registerer/TranslationString.php:858
+msgid "Please setup your geolocation IP token from global settings."
+msgstr "Veuillez configurer votre jeton IP de géolocalisation dans les réglages globaux."
+
+#: app/Modules/Registerer/TranslationString.php:857
+msgid "Set error message when IP address is invalid."
+msgstr "Définir un message d’erreur lorsque l’adresse IP n’est pas valide."
+
+#: app/Modules/Registerer/TranslationString.php:856
+msgid "IP Address Error Message"
+msgstr "Message d’erreur d’adresse IP"
+
+#: app/Modules/Registerer/TranslationString.php:855
+msgid "Add multiple IP address separated by comma to restrict submission."
+msgstr "Ajouter plusieurs adresses IP séparées par une virgule pour restreindre les envois."
+
+#: app/Modules/Registerer/TranslationString.php:854
+msgid "Add IP Address"
+msgstr "Ajouter une adresse IP"
+
+#: app/Modules/Registerer/TranslationString.php:853
+msgid "Keyword Based Restriction"
+msgstr "Restriction par mot-clé"
+
+#: app/Modules/Registerer/TranslationString.php:852
+msgid "Country Based Restriction"
+msgstr "Restriction par pays"
+
+#: app/Modules/Registerer/TranslationString.php:851
+msgid "IP Based Restriction"
+msgstr "Restriction par IP"
+
+#: app/Modules/Registerer/TranslationString.php:850
+msgid "Enabling this restrict or allow users to submit forms depends on selection."
+msgstr "Activer cela restreint ou autorise les internautes à envoyer des formulaires en fonction de la sélection."
+
+#: app/Hooks/filters.php:338 app/Models/Form.php:163
+msgid "Sorry! You can't submit a form the country you are residing."
+msgstr "Désolé, vous ne pouvez pas envoyer de formulaire pour le pays dans lequel vous résidez."
+
+#: app/Hooks/filters.php:332 app/Models/Form.php:157
+#: app/Services/Form/FormValidationService.php:727
+msgid "Sorry! You can't submit a form from your IP address."
+msgstr "Désolé, vous ne pouvez pas envoyer de formulaire depuis votre adresse IP."
+
+#: app/Hooks/actions.php:921
+msgid "Default (Form Styler)"
+msgstr "Par défaut (outil de stylisation de formulaire)"
+
+#: app/Hooks/filters.php:344 app/Models/Form.php:169
+#: app/Services/Form/FormValidationService.php:768
+msgid "Sorry! Your submission contains some restricted keywords."
+msgstr "Désolé ! Votre envoi contient des mots-clés restreints."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:108
+msgid "This message will be shown if validation fails for validate phone number."
+msgstr "Ce message s’affichera si la validation du numéro de téléphone échoue."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:106
+msgid "Valid Phone Number"
+msgstr "Numéro de téléphone valide"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:100
+msgid "This message will be shown if validation fails for maximum file count."
+msgstr "Ce message s’affiche si la validation échoue pour le nombre maximum de fichiers."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:99
+msgid "Validation fails for maximum file count"
+msgstr "Échec de la validation du nombre maximal de fichiers"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:98
+msgid "Maximum File Count"
+msgstr "Nombre maximum de fichiers"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:95
+msgid "This message will be shown if validation fails for maximum file size."
+msgstr "Ce message s’affichera si la validation échoue pour la taille maximale du fichier."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:94
+msgid "Validation fails for maximum file size"
+msgstr "Échec de la validation de la taille maximale de fichier"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:93
+msgid "Maximum File Size"
+msgstr "Taille maximale de fichier"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:90
+msgid "This message will be shown if validation fails for allowed file type."
+msgstr "Ce message s’affichera si la validation échoue pour le type de fichier autorisé."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:88
+msgid "Allowed File Types"
+msgstr "Types de fichiers autorisés"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:85
+msgid "This message will be shown if validation fails for image types."
+msgstr "Ce message s’affichera si la validation échoue pour les types d’image."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:83
+msgid "Allowed Image Types"
+msgstr "Types d‘images autorisés"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:80
+msgid "This message will be shown if validation fails for validate URL."
+msgstr "Ce message s’affichera si la validation échoue pour l’URL à valider."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:78
+msgid "Url"
+msgstr "URL"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:75
+msgid "This message will be shown if validation fails for digits value."
+msgstr "Ce message s’affichera si la validation échoue pour la valeur numérique."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:74
+msgid "Validation fails for limited digits"
+msgstr "La validation échoue pour un nombre limité de chiffres"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:70
+msgid "This message will be shown if validation fails for maximum value."
+msgstr "Ce message s’affichera si la validation échoue pour la valeur maximale."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:69
+msgid "Validation fails for maximum value"
+msgstr "Échec de la validation pour la valeur maximale"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:68
+msgid "Maximum"
+msgstr "Maximum"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:65
+msgid "This message will be shown if validation fails for minimum value."
+msgstr "Ce message s’affichera si la validation échoue pour la valeur minimale."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:64
+msgid "Validation fails for minimum value"
+msgstr "Échec de la validation pour la valeur minimale"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:63
+msgid "Minimum"
+msgstr "Minimum"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:60
+msgid "This message will be shown if validation fails for numeric value."
+msgstr "Ce message s’affichera si la validation échoue pour une valeur numérique."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:58
+msgid "Numeric"
+msgstr "Numérique"
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:55
+msgid "This message will be shown if validation fails for email."
+msgstr "Ce message s’affichera si la validation échoue pour l’e-mail."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:49
+msgid "This message will be shown if validation fails for required field."
+msgstr "Ce message s’affichera si la validation échoue pour un champ obligatoire."
+
+#: app/Helpers/Traits/GlobalDefaultMessages.php:47
+msgid "Required Field"
+msgstr "Champ obligatoire"
+
+#: app/Hooks/actions.php:925
+msgid "Inherit Theme Style"
+msgstr "Hériter du style du thème"
+
+#: app/Modules/Component/Component.php:916
+msgid "Invalid Form!"
+msgstr "Formulaire invalide !"
+
+#: boot/app.php:85
+msgid "Developer Docs"
+msgstr "Docs de développement"
+
+#: boot/app.php:84
+msgid "Get Support"
+msgstr "Obtenir du support"
+
+#: boot/app.php:83
+msgid "View Fluent Form Documentation"
+msgstr "Voir la documentation de Fluent Form"
+
+#: app/Views/email/failedIntegration/body.php:208
+msgid "This email has been sent from %1$syour website%2$s via Fluent Forms. You can disable this email from %3$shere%4$s"
+msgstr "Cet e-mail a été envoyé depuis %1$svotre site web%2$s via Fluent Forms. Vous pouvez désactiver cet e-mail depuis %3$sici%4$s"
+
+#: app/Views/email/failedIntegration/body.php:182
+msgid "here"
+msgstr "ici"
+
+#: app/Views/email/failedIntegration/body.php:180
+msgid "You have more error logs, please click %1$s%2$s%3$s to review."
+msgstr "Vous avez d’autres journaux d’erreurs, veuillez cliquer sur %1$s%2$s%3$s pour les consulter."
+
+#: app/Views/email/failedIntegration/body.php:146
+msgid "Link"
+msgstr "Lien"
+
+#: app/Views/email/failedIntegration/body.php:133
+msgid "You have some integrations that did not run successfully! Please take necessary steps."
+msgstr "Certaines intégrations n’ont pas bien fonctionné ! Veuillez prendre les mesures nécessaires."
+
+#: app/Views/email/failedIntegration/body.php:120
+msgid "Failed Integrations"
+msgstr "Intégrations échouées"
+
+#: app/Modules/Registerer/TranslationString.php:1306
+msgid "Migration tools only works if you have any other contact form plugin already installed along with Fluent Forms."
+msgstr "Les outils de migration fonctionnent uniquement si vous avez une autre extension de formulaire de contact déjà installée avec Fluent Forms."
+
+#: app/Modules/Registerer/TranslationString.php:1125
+msgid "Captcha has been enabled globally"
+msgstr "Le CAPTCHA a été activé au niveau global"
+
+#: app/Modules/AddOnModule.php:394
+msgid "Capture Fluent Forms Submission to your Notion workspaces — and do it exactly the way you want."
+msgstr "Capturez les entrées Fluent Forms dans vos espaces de travail Notion — et faites-le exactement comme vous le souhaitez."
+
+#: app/Modules/AddOnModule.php:393
+msgid "Notion"
+msgstr "Notion"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr "Ajouter"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr "Actions planifiées"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr "Action planifiée"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:110
+msgid "Database error."
+msgstr "Erreur de la base de données."
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_QueueRunner.php:215
+msgid "Every minute"
+msgstr "Chaque minute"
+
+#. translators: %s: amount of time
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:169
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minute"
+msgstr[1] "%s minutes"
+
+#. translators: %s: amount of time
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:174
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s seconde"
+msgstr[1] "%s secondes"
+
+#. translators: %s: amount of time
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:164
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s heure"
+msgstr[1] "%s heures"
+
+#. translators: %s: amount of time
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:159
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s jour"
+msgstr[1] "%s jours"
+
+#. translators: %s: amount of time
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:154
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s semaine"
+msgstr[1] "%s semaines"
+
+#. translators: %s: amount of time
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:149
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s mois"
+msgstr[1] "%s mois"
+
+#. translators: %s: amount of time
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:144
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s année"
+msgstr[1] "%s années"
+
+#: app/Services/Libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:406
+msgid "Pending"
+msgstr "En attente"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "Modifier l’action planifiée"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
+msgid "Version:"
+msgstr "Version :"
+
+#: app/Services/Libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:409
+msgid "Canceled"
+msgstr "Annulée"
+
+#. translators: %s is the name of the hook to be cancelled.
+#: app/Services/Libraries/action-scheduler/functions.php:219
+msgid "Caught exception while cancelling action: %s"
+msgstr "Une exception a été détectée lors de l’annulation de l’action : %s"
+
+#. translators: %d refers to the total number of taskes completed
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:183
+msgid "%d scheduled task completed."
+msgid_plural "%d scheduled tasks completed."
+msgstr[0] "%d tâche planifiée terminée."
+msgstr[1] "%d tâches planifiées terminées."
+
+#. translators: %s refers to the exception error message
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:166
+msgid "There was an error running the action scheduler: %s"
+msgstr "Une erreur s’est produite lors de l’exécution de l’outil de planification d’action : %s"
+
+#. translators: %d refers to the total number of batches executed
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:147
+msgid "%d batch executed."
+msgid_plural "%d batches executed."
+msgstr[0] "%d lot exécuté."
+msgstr[1] "%d lots exécutés."
+
+#. translators: %d refers to how many scheduled taks were found to run
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:130
+msgid "Found %d scheduled task"
+msgid_plural "Found %d scheduled tasks"
+msgstr[0] "Trouvé %d tâche planifiée"
+msgstr[1] "Trouvé %d tâches planifiées"
+
+#. translators: %s refers to the schema name
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:30
+msgid "Registered schema for %s"
+msgstr "Schéma enregistré pour %s"
+
+#. translators: 1: action ID 2: exception message
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+msgid "Error processing action %1$s: %2$s"
+msgstr "Action de traitement d’erreur %1$s : %2$s"
+
+#. translators: 1: action ID 2: hook name
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+msgid "Completed processing action %1$s with hook: %2$s"
+msgstr "Action de traitement %1$s terminée avec le crochet : %2$s"
+
+#. translators: %s refers to the action ID
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+msgid "Started processing action %s"
+msgstr "Traitement de l’action %s commencé"
+
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
+msgid "The claim has been lost. Aborting current batch."
+msgstr "La demande a été perdue. Abandon du lot actuel."
+
+#. translators: %d: amount of actions
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
+msgid "Running %d action"
+msgid_plural "Running %d actions"
+msgstr[0] "%d action en cours d’exécution"
+msgstr[1] "%d actions en cours d’exécution"
+
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr "Il y a trop de lots simultanés."
+
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+msgid "There are too many concurrent batches, but the run is forced to continue."
+msgstr "Il y a trop de lots simultanés, mais l’exécution est forcée de continuer."
+
+#. translators: %s php class name
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:33
+#: app/Services/Libraries/action-scheduler/classes/WP_CLI/ProgressBar.php:47
+msgid "The %s class can only be run within WP CLI."
+msgstr "La classe %s peut uniquement être exécutée avec WP CLI."
+
+#. translators: 1: source action ID 2: source store class 3: destination action
+#. ID 4: destination store class
+#: app/Services/Libraries/action-scheduler/classes/migration/Runner.php:107
+msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+msgstr "Migration de l’action avec l’ID %1$d dans %2$s vers l’ID %3$d dans %4$s"
+
+#. translators: %d: amount of actions
+#: app/Services/Libraries/action-scheduler/classes/migration/Runner.php:82
+msgid "Migrating %d action"
+msgid_plural "Migrating %d actions"
+msgstr[0] "Migration d’%d action"
+msgstr[1] "Migration de %d actions"
+
+#: app/Services/Libraries/action-scheduler/classes/migration/Controller.php:162
+msgid "Action Scheduler migration in progress. The list of scheduled actions may be incomplete."
+msgstr "Migration du planification d’actions en cours. La liste des actions planifiée peut être incomplète."
+
+#: app/Services/Libraries/action-scheduler/classes/migration/Config.php:118
+msgid "Destination logger must be configured before running a migration"
+msgstr "L’outil d’enregistrement de destination doit être configuré avant d’effectuer une migration."
+
+#: app/Services/Libraries/action-scheduler/classes/migration/Config.php:96
+msgid "Destination store must be configured before running a migration"
+msgstr "Le stockage de destination doit être configuré avant d’effectuer une migration"
+
+#: app/Services/Libraries/action-scheduler/classes/migration/Config.php:74
+msgid "Source logger must be configured before running a migration"
+msgstr "L’outil de journalisation de la source doit être configuré avant d’effectuer une migration"
+
+#: app/Services/Libraries/action-scheduler/classes/migration/Config.php:52
+msgid "Source store must be configured before running a migration"
+msgstr "Le stockage source doit être configuré avant d’effectuer une migration"
+
+#: app/Services/Libraries/action-scheduler/classes/migration/ActionMigrator.php:95
+msgid "Unable to remove source migrated action %s"
+msgstr "Impossible de supprimer l’action migrée de la source %s"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr "Groupe d’actions"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr "Aucune action trouvée dans la corbeille"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr "Aucune action trouvée"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr "Rechercher des actions planifiées"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "Voir l’action"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr "Nouvelle action planifiée"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr "Ajouter une nouvelle action planifiée"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr "Les actions planifiées sont des crochets déclenchés à une certaine date et à une certaine heure."
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+msgctxt "post"
+msgid "In-Progress"
+msgstr "En cours"
+
+#. translators: %s: count
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:38
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> échouée"
+msgstr[1] "<span class=\"count\">(%s)</span> échouées"
+
+#. translators: %s: count
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:53
+msgid "In-Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> en cours"
+msgstr[1] "<span class=\"count\">(%s)</span> en cours"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+msgctxt "post"
+msgid "Failed"
+msgstr "Échouée"
+
+#. translators: %s is the error message
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1055
+msgid "%s Support for strings longer than this will be removed in a future version."
+msgstr "La prise en charge par %s de chaînes d’une longueur supérieure à cette valeur sera supprimée dans une version à venir."
+
+#. translators: %s: action ID
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:878
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "Impossible de marquer l’échec de l’action %s. Erreur de la base de données."
+
+#. translators: %s: action ID
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:852
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "Impossible de déverrouiller la demande d’action %s. Erreur de la base de données."
+
+#. translators: %s: claim ID
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:824
+msgid "Unable to unlock claim %s. Database error."
+msgstr "Impossible de déverrouiller la demande %s. Erreur de la base de données."
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
+msgid "Invalid schedule. Cannot save action."
+msgstr "Planification non valide. Impossible d’enregistrer l’action."
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
+msgid "Unable to save action."
+msgstr "Impossible d’enregistrer l’action."
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1076
+msgid "Unknown status found for action."
+msgstr "État inconnu trouvé pour l’action."
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1074
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:904
+msgid "Invalid action ID. No status found."
+msgstr "ID d’action invalide. Aucun état trouvé."
+
+#. translators: %s: group name
+#. translators: %s is the group name
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:844
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:717
+msgid "The group \"%s\" does not exist."
+msgstr "Le groupe « %s » n’existe pas."
+
+#. translators: %s: action ID
+#. translators: %s is the action ID
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:632
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:724
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:755
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1001
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1044
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:974
+msgid "Unidentified action %s"
+msgstr "Action %s non identifiée"
+
+#: app/Services/Libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:471
+msgid "Unknown partial args matching value."
+msgstr "Valeur de correspondance partielle d’argument inconnue."
+
+#: app/Modules/Registerer/TranslationString.php:1040
+msgid "Single"
+msgstr "Unique"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:124
+msgid "Count"
+msgstr "Nombre"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
+msgid "Action Status"
+msgstr "État de l’action"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:118
+msgid "Data store:"
+msgstr "Stockage de données :"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "This section shows details of Action Scheduler."
+msgstr "Cette section affiche les détails de l’outil de planification d’action."
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "Action Scheduler"
+msgstr "Outil de planification d’action"
+
+#. translators: %s: date interval
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:488
+msgid " (%s)"
+msgstr " (%s)"
+
+#. translators: %s: date interval
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:485
+msgid " (%s ago)"
+msgstr " (il y a %s)"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:471
+msgid "async"
+msgstr "asynchrone"
+
+#. translators: 1: action HTML 2: action ID 3: error message
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:435
+msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
+msgstr "Impossible de traiter les modifications de l’action suivante : « %1$s » (ID : %2$d). Erreur :  %3$s"
+
+#. translators: %s: action HTML
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:429
+msgid "Successfully processed change for action: %s"
+msgstr "La modification de l’action a bien été traitée : %s"
+
+#. translators: %s: action HTML
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:425
+msgid "Successfully canceled action: %s"
+msgstr "L’action a bien été annulée : %s"
+
+#. translators: %s: action HTML
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:421
+msgid "Successfully executed action: %s"
+msgstr "Action bien exécutée : %s"
+
+#. translators: %s: time interval
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:260
+msgid "Every %s"
+msgstr "Tous les %s"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:224
+msgid "Now!"
+msgstr "Maintenant !"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr "Annuler l’action maintenant pour éviter son exécution ultérieure"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "Traiter l’action maintenant comme si elle était exécutée dans le cadre d’une file d’attente"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr "Exécuter"
+
+#: app/Services/Libraries/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr "Date planifiée"
+
+#: app/Views/admin/globalSettings/menu.php:101
+msgid "Payment"
+msgstr "Paiement"
+
+#: app/Views/admin/docs/index.php:118
+msgid "Documentation"
+msgstr "Documentation"
+
+#: app/Services/FormBuilder/DefaultElements.php:1470
+msgid "Phone"
+msgstr "Téléphone"
+
+#: app/Modules/Registerer/Menu.php:639
+msgid "Conditional Confirmations"
+msgstr "Confirmations conditionnelles"
+
+#: app/Modules/Registerer/TranslationString.php:687
+msgid "Enabling this option will have form inserter button inside classic editor."
+msgstr "En activant cette option, vous obtiendrez un bouton d’insertion de formulaire dans l’éditeur classique."
+
+#: app/Views/admin/docs/index.php:158
+msgid "Join our community"
+msgstr "Rejoindre notre communauté"
+
+#: app/Views/admin/docs/index.php:178
+msgid "Show Your Love"
+msgstr "Afficher votre appréciation"
+
+#: app/Views/admin/docs/index.php:163
+msgid "Join community"
+msgstr "Rejoindre la communauté"
+
+#: app/Views/admin/docs/index.php:143
+msgid "Report An Issue"
+msgstr "Signaler un problème"
+
+#: app/Views/admin/docs/index.php:123
+msgid "Visit Documentation"
+msgstr "Consulter la documentation"
+
+#: boot/app.php:13
+msgid "Please update Fluent Forms Pro to latest version"
+msgstr "Veuillez mettre à jour Fluent Forms Pro dans sa dernière version"
+
+#: app/Views/admin/globalSettings/menu.php:131
+msgid "Security"
+msgstr "Sécurité"
+
+#: app/Views/admin/globalSettings/menu.php:70
+msgid "Integration Failure"
+msgstr "Échec de l’intégration"
+
+#: app/Views/admin/form/settings_wrapper.php:29
+msgid "Double Opt-in Confirmation"
+msgstr "Confirmation de la double acceptation"
+
+#: app/Views/admin/docs/index.php:203
+msgid "Request Now"
+msgstr "Demander maintenant"
+
+#: app/Modules/Registerer/TranslationString.php:381
+msgid "Post Feeds"
+msgstr "Flux de publication"
+
+#: app/Modules/Registerer/TranslationString.php:1453
+msgid "Edit Coupon"
+msgstr "Modifier le code promo"
+
+#: app/Modules/Registerer/TranslationString.php:1385
+msgid "Edit Form"
+msgstr "Modifier le formulaire"
+
+#: app/Modules/Registerer/TranslationString.php:1280
+msgid "Edit Transaction"
+msgstr "Modifier la transaction"
+
+#: app/Modules/Registerer/TranslationString.php:1224
+msgid "Entry editor is available on pro version.Please upgrade to pro"
+msgstr "L’éditeur d’entrée est disponible sur la version pro. Veuillez mettre à niveau vers pro"
+
+#: app/Modules/Registerer/TranslationString.php:1222
+msgid "is Not Editable"
+msgstr "n’est pas modifiable"
+
+#: app/Modules/Registerer/TranslationString.php:1208
+msgid "Edit Entry Data"
+msgstr "Modifier les données de saisie"
+
+#: app/Modules/Registerer/TranslationString.php:1036
+msgid "Bulk Edit / Predefined Data Sets"
+msgstr "Modifications groupées/jeux de données prédéfinis"
+
+#: app/Modules/Registerer/TranslationString.php:1027
+msgid "Edit your options"
+msgstr "Modifier vos options"
+
+#: app/Modules/Registerer/TranslationString.php:1026
+msgid "Bulk Edit"
+msgstr "Modifications groupées"
+
+#: app/Modules/Registerer/TranslationString.php:686
+msgid "Insert Button on Classic Editor"
+msgstr "Bouton d’insertion dans l’éditeur classique"
+
+#: app/Modules/Registerer/TranslationString.php:685
+msgid "Classic Editor Button"
+msgstr "Bouton de l’éditeur classique"
+
+#: app/Modules/Registerer/TranslationString.php:630
+msgid "Loading Editor..."
+msgstr "Chargement de l’éditeur…"
+
+#: app/Modules/Registerer/TranslationString.php:553
+msgid "Edit PDF Feed"
+msgstr "Modifier le flux PDF"
+
+#: app/Modules/AddOnModule.php:346
+msgid "Create Salesflare contact from WordPress, so you can grow your contact list"
+msgstr "Créer un contact Salesflare à partir de WordPress pour pouvoir faire grossir votre liste de contacts"
+
+#: app/Modules/AddOnModule.php:345
+msgid "Salesflare"
+msgstr "Salesflare"
+
+#: app/Modules/AddOnModule.php:338
+msgid "CleverReach is web-based email marketing software for managing email campaigns and contacts. Use Fluent Forms to grow your CleverReach subscriber list"
+msgstr "CleverReach est un logiciel de marketing par e-mail basé sur le web pour gérer les campagnes d’e-mail et les contacts. Utilisez Fluent Forms pour faire grossir votre liste d’abonné/abonnée(s) CleverReach."
+
+#: app/Modules/AddOnModule.php:337
+msgid "CleverReach"
+msgstr "CleverReach"
+
+#: app/Modules/AddOnModule.php:330
+msgid "Zoho CRM is an online Sales CRM software that manages your sales, marketing and support in one CRM platform."
+msgstr "Zoho CRM est un CRM en ligne qui permet de gérer vos ventes, votre marketing et votre support en une seule plateforme de gestion des relations avec la clientèle."
+
+#: app/Modules/AddOnModule.php:329
+msgid "Zoho CRM"
+msgstr "Zoho CRM"
+
+#: app/Modules/AddOnModule.php:322
+msgid "Send SMS in real time when a form is submitted with ClickSend"
+msgstr "Envoyez des SMS en temps réel lorsqu’un formulaire est soumis avec ClickSend"
+
+#: app/Modules/AddOnModule.php:321
+msgid "ClickSend"
+msgstr "ClickSend"
+
+#: app/Modules/AddOnModule.php:314
+msgid "Generate AffiliateWP referrals automatically when a customer is referred to your site via an affiliate link"
+msgstr "Générer automatiquement des références AffiliateWP lorsqu’un client/cliente est dirigé vers votre site via un lien d’affiliation"
+
+#: app/Modules/AddOnModule.php:313
+msgid "AffiliateWP"
+msgstr "AffiliateWP"
+
+#: app/Modules/AddOnModule.php:306
+msgid "Send notification to Telegram channel or group when a form is submitted"
+msgstr "Envoyez une notification à un canal ou à un groupe Telegram lorsqu’un formulaire est soumis."
+
+#: app/Modules/AddOnModule.php:305
+msgid "Telegram"
+msgstr "Telegram"
+
+#: app/Modules/AddOnModule.php:298
+msgid "Send notification with form data to your Discord channel when a form is submitted"
+msgstr "Envoyez une notification avec les données du formulaire à votre canal Discord lorsqu’un formulaire est soumis"
+
+#: app/Modules/AddOnModule.php:297
+msgid "Discord"
+msgstr "Discord"
+
+#: app/Modules/Registerer/TranslationString.php:111
+msgid "Buy Pro"
+msgstr "Acheter la Pro"
+
+#: app/Modules/Registerer/TranslationString.php:110
+msgid "Design Customization is only available on Pro Version of Fluent Forms."
+msgstr "La personnalisation du design est disponible uniquement sur la version Pro de Fluent Forms."
+
+#: app/Modules/Registerer/TranslationString.php:109
+msgid "Design customization available on pro only.This is just a preview version.To use this feature please upgrade to Pro."
+msgstr "La personnalisation du design est uniquement disponible sur la version pro. Il s’agit d’une version de prévisualisation. Pour utiliser cette fonctionnalité, veuillez mettre à niveau vers la version pro."
+
+#: app/Modules/Registerer/TranslationString.php:107
+msgid "Disable Branding"
+msgstr "Désactiver l’image de marque"
+
+#: app/Modules/Registerer/TranslationString.php:106
+msgid "Disable Scroll to Next"
+msgstr "Désactiver le défilement vers le suivant"
+
+#: app/Modules/Registerer/TranslationString.php:105
+msgid "Disable Layout on Mobile Devices"
+msgstr "Désactiver la mise en page sur les appareils mobiles"
+
+#: app/Modules/Registerer/TranslationString.php:100
+msgid "Answers"
+msgstr "Réponses"
+
+#: app/Modules/Registerer/TranslationString.php:99
+msgid "Questions"
+msgstr "Questions"
+
+#: app/Modules/Registerer/TranslationString.php:98
+msgid "Font"
+msgstr "Police de caractère"
 
 #: app/Services/FormBuilder/ElementCustomization.php:668
 msgid "Set the width of the columns. The minimum column width is 10%."
@@ -47,6 +946,10 @@ msgstr "Selon les réglages globaux"
 #: app/Services/FormBuilder/ElementCustomization.php:642
 msgid "Uploaded files can be stored in media library or your server or both."
 msgstr "Les fichiers téléversés peuvent être stockés dans la médiathèque, sur votre serveur ou les deux."
+
+#: app/Helpers/Helper.php:647
+msgid "Fluent Forms Default"
+msgstr "Formulaires Fluent par défaut"
 
 #: app/Modules/CLI/Commands.php:18
 msgid "All Submissions"
@@ -119,10 +1022,6 @@ msgstr "Typographie du titrage"
 #: app/Modules/Widgets/OxyFluentFormWidget.php:378
 msgid "Cell Typography"
 msgstr "Typographie de cellule"
-
-#: app/Modules/Widgets/OxyFluentFormWidget.php:388
-msgid "GDPR, Terms & Condition"
-msgstr "RGPD, Conditions Générales d’Utilisation "
 
 #: app/Modules/Widgets/OxyFluentFormWidget.php:477
 msgid "This is a Conversational Form. You must use the default Design tab for this type of forms."
@@ -258,6 +1157,10 @@ msgstr "Sélectionnez un masque pour le champ d’entrée."
 msgid "Margin Bottom"
 msgstr "Marge inférieure"
 
+#: app/Modules/Widgets/OxyFluentFormWidget.php:388
+msgid "GDPR, Terms & Condition"
+msgstr "RGPD, Conditions Générales d’Utilisation"
+
 #: app/Modules/Acl/Acl.php:239
 msgid "View Forms"
 msgstr "Afficher les formulaires"
@@ -303,10 +1206,6 @@ msgstr "Le modèle sélectionné est introuvable"
 msgid "Manager has been removed."
 msgstr "Le gestionnaire a été supprimé."
 
-#: app/Modules/Acl/Managers.php:117 app/Services/Manager/ManagerService.php:130
-msgid "We could not found any user with this email."
-msgstr "Nous n’avons trouvé aucun utilisateur/utilisatrice avec cet e-mail."
-
 #: app/Services/FormBuilder/ValidationRuleSettings.php:84
 msgid "Validate Phone Number"
 msgstr "Valider le N° de téléphone"
@@ -328,24 +1227,18 @@ msgstr "Maitres d’oeuvre"
 msgid "Form Not Found! Try Again."
 msgstr "Formulaire introuvable ! Veuillez réessayer."
 
+#: app/Modules/Acl/Managers.php:117 app/Services/Manager/ManagerService.php:130
+msgid "We could not found any user with this email."
+msgstr "Nous n’avons trouvé aucun compte avec cet e-mail."
+
 #: app/Modules/Component/Component.php:672
 msgid "Only %%maxItemCount%% options can be added"
 msgstr "Seules les options %%maxItemCount%% peuvent être ajoutées"
-
-#: app/Modules/Entries/Entries.php:1056
-#: app/Services/Submission/SubmissionService.php:490
-msgid "Submission ID and User ID is required"
-msgstr "L’ID de l’envoi et l’ID utilisateur/utilisatrice sont nécessaires"
 
 #: app/Modules/Entries/Entries.php:1066
 #: app/Services/Submission/SubmissionService.php:497
 msgid "Invalid Request"
 msgstr "Requête Invalide"
-
-#: app/Modules/Entries/Entries.php:1112
-#: app/Services/Submission/SubmissionService.php:539
-msgid "Selected user has been successfully assigned to this submission"
-msgstr "L’utilisateur/utilisatrice sélectionné a bien été affecté à cette envoi"
 
 #: app/Modules/Form/FormHandler.php:747
 #: app/Services/Form/FormValidationService.php:600
@@ -510,20 +1403,10 @@ msgstr "Informations de soumission"
 msgid "Entity ID"
 msgstr "ID de l’entité"
 
-#: app/Modules/Registerer/TranslationString.php:54
-#: app/Modules/Registerer/TranslationString.php:1198
-msgid "User IP"
-msgstr "IP utilisateur/utilisatrice"
-
 #: app/Modules/Registerer/TranslationString.php:55
 #: app/Modules/Registerer/TranslationString.php:1201
 msgid "Device"
 msgstr "Appareil"
-
-#: app/Modules/Registerer/TranslationString.php:56
-#: app/Modules/Registerer/TranslationString.php:1202
-msgid "User"
-msgstr "Utilisateur"
 
 #: app/Modules/Registerer/TranslationString.php:57
 #: app/Modules/Registerer/TranslationString.php:1203
@@ -774,6 +1657,26 @@ msgstr "Migrator"
 msgid "API Logs"
 msgstr "Journaux d’API"
 
+#: app/Modules/Registerer/TranslationString.php:56
+#: app/Modules/Registerer/TranslationString.php:1202
+msgid "User"
+msgstr "Compte"
+
+#: app/Modules/Registerer/TranslationString.php:54
+#: app/Modules/Registerer/TranslationString.php:1198
+msgid "User IP"
+msgstr "IP du compte"
+
+#: app/Modules/Entries/Entries.php:1112
+#: app/Services/Submission/SubmissionService.php:539
+msgid "Selected user has been successfully assigned to this submission"
+msgstr "Le compte sélectionné a bien été assigné à cette entrée"
+
+#: app/Modules/Entries/Entries.php:1056
+#: app/Services/Submission/SubmissionService.php:490
+msgid "Submission ID and User ID is required"
+msgstr "L’ID de l’envoi et l’ID du compte sont nécessaires"
+
 #: app/Services/FluentConversational/Classes/Form.php:356
 msgid "I don't accept"
 msgstr "Je n’accepte pas"
@@ -840,10 +1743,6 @@ msgstr "Si vous activez cette option, les options à cocher seront mélangées"
 msgid "Shuffle the available options"
 msgstr "Mélanger les options disponibles."
 
-#: app/Services/FormBuilder/ElementCustomization.php:382
-msgid "Define Max selections items that a user can select ."
-msgstr "Définir le nombre maximum d’éléments qu’un utilisateur ou une utilisatrice peut sélectionner."
-
 #: app/Services/FormBuilder/ElementCustomization.php:381
 msgid "Max Selection"
 msgstr "Sélection maximale"
@@ -851,6 +1750,10 @@ msgstr "Sélection maximale"
 #: app/Modules/Widgets/FluentFormWidget.php:856
 msgid "GDPR , Terms & Condition "
 msgstr "RGPD, Conditions Générales d’Utilisation "
+
+#: app/Services/FormBuilder/ElementCustomization.php:382
+msgid "Define Max selections items that a user can select ."
+msgstr "Définissez le nombre maximum d’éléments qu’un utilisateur ou une utilisatrice peut sélectionner."
 
 #: app/Modules/Registerer/TranslationString.php:826
 #: app/Modules/Widgets/OxyFluentFormWidget.php:36
@@ -1079,26 +1982,6 @@ msgstr "Bordure"
 msgid "Normal"
 msgstr "Normal"
 
-#: app/Modules/Widgets/FluentFormWidget.php:423
-#: app/Modules/Widgets/OxyFluentFormWidget.php:77
-msgid "Max Width"
-msgstr "Largeur maximale"
-
-#: app/Modules/Widgets/FluentFormWidget.php:411
-#: app/Modules/Widgets/OxyFluentFormWidget.php:402
-#: app/Modules/Widgets/OxyFluentFormWidget.php:579
-msgid "Link Color"
-msgstr "Couleur du lien"
-
-#: app/Modules/Registerer/TranslationString.php:103
-#: app/Modules/Widgets/FluentFormWidget.php:402
-#: app/Modules/Widgets/FluentFormWidget.php:1796
-#: app/Modules/Widgets/FluentFormWidget.php:1891
-#: app/Modules/Widgets/FluentFormWidget.php:1952
-#: app/Modules/Widgets/FluentFormWidget.php:2015
-msgid "Background"
-msgstr "Arrière-plan"
-
 #: app/Modules/Registerer/TranslationString.php:1081
 #: app/Modules/Widgets/FluentFormWidget.php:539
 #: app/Modules/Widgets/FluentFormWidget.php:619
@@ -1118,6 +2001,26 @@ msgstr "Arrière-plan"
 #: app/Modules/Widgets/OxyFluentFormWidget.php:982
 msgid "Text Color"
 msgstr "Couleur du texte"
+
+#: app/Modules/Widgets/FluentFormWidget.php:423
+#: app/Modules/Widgets/OxyFluentFormWidget.php:77
+msgid "Max Width"
+msgstr "Largeur maximale"
+
+#: app/Modules/Widgets/FluentFormWidget.php:411
+#: app/Modules/Widgets/OxyFluentFormWidget.php:402
+#: app/Modules/Widgets/OxyFluentFormWidget.php:579
+msgid "Link Color"
+msgstr "Couleur du lien"
+
+#: app/Modules/Registerer/TranslationString.php:103
+#: app/Modules/Widgets/FluentFormWidget.php:402
+#: app/Modules/Widgets/FluentFormWidget.php:1796
+#: app/Modules/Widgets/FluentFormWidget.php:1891
+#: app/Modules/Widgets/FluentFormWidget.php:1952
+#: app/Modules/Widgets/FluentFormWidget.php:2015
+msgid "Background"
+msgstr "Arrière-plan"
 
 #: app/Modules/Registerer/TranslationString.php:1091
 #: app/Modules/Widgets/FluentFormWidget.php:2342
@@ -1152,51 +2055,6 @@ msgstr "Rempli"
 #: app/Views/email/report/body.php:147 app/Views/email/report/body.php:172
 msgid "Form"
 msgstr "Formulaire"
-
-#: app/Modules/Registerer/TranslationString.php:1534
-#: app/Modules/Widgets/FluentFormWidget.php:253
-#: app/Modules/Widgets/FluentFormWidget.php:326
-#: app/Modules/Widgets/FluentFormWidget.php:897
-#: app/Modules/Widgets/FluentFormWidget.php:1197
-#: app/Modules/Widgets/FluentFormWidget.php:1252
-#: app/Modules/Widgets/FluentFormWidget.php:1343
-#: app/Modules/Widgets/FluentFormWidget.php:1427
-#: app/Modules/Widgets/FluentFormWidget.php:1930
-#: app/Modules/Widgets/FluentFormWidget.php:2003
-#: app/Modules/Widgets/FluentFormWidget.php:2350
-#: app/Modules/Widgets/OxyFluentFormWidget.php:213
-#: app/Modules/Widgets/OxyFluentFormWidget.php:335
-#: app/Modules/Widgets/OxyFluentFormWidget.php:816
-#: app/Modules/Widgets/OxyFluentFormWidget.php:893
-msgid "Color"
-msgstr "Couleur"
-
-#: app/Modules/Widgets/FluentFormWidget.php:269
-#: app/Modules/Widgets/FluentFormWidget.php:342
-#: app/Modules/Widgets/FluentFormWidget.php:551
-#: app/Modules/Widgets/FluentFormWidget.php:788
-#: app/Modules/Widgets/FluentFormWidget.php:889
-#: app/Modules/Widgets/FluentFormWidget.php:1210
-#: app/Modules/Widgets/FluentFormWidget.php:1265
-#: app/Modules/Widgets/FluentFormWidget.php:1368
-#: app/Modules/Widgets/FluentFormWidget.php:1464
-#: app/Modules/Widgets/FluentFormWidget.php:1539
-#: app/Modules/Widgets/FluentFormWidget.php:1616
-#: app/Modules/Widgets/FluentFormWidget.php:1734
-#: app/Modules/Widgets/FluentFormWidget.php:1942
-#: app/Modules/Widgets/FluentFormWidget.php:2215
-#: app/Modules/Widgets/FluentFormWidget.php:2329
-#: app/Modules/Widgets/FluentFormWidget.php:2363
-#: app/Modules/Widgets/OxyFluentFormWidget.php:129
-#: app/Modules/Widgets/OxyFluentFormWidget.php:273
-#: app/Modules/Widgets/OxyFluentFormWidget.php:393
-#: app/Modules/Widgets/OxyFluentFormWidget.php:420
-#: app/Modules/Widgets/OxyFluentFormWidget.php:776
-#: app/Modules/Widgets/OxyFluentFormWidget.php:861
-#: app/Modules/Widgets/OxyFluentFormWidget.php:924
-#: app/Modules/Widgets/OxyFluentFormWidget.php:956
-msgid "Typography"
-msgstr "Typographie"
 
 #: app/Modules/Widgets/FluentFormWidget.php:211
 #: app/Modules/Widgets/FluentFormWidget.php:445
@@ -1242,6 +2100,51 @@ msgstr "Afficher"
 #: app/Modules/Widgets/OxyFluentFormWidget.php:123
 msgid "Labels"
 msgstr "Libellés"
+
+#: app/Modules/Registerer/TranslationString.php:1534
+#: app/Modules/Widgets/FluentFormWidget.php:253
+#: app/Modules/Widgets/FluentFormWidget.php:326
+#: app/Modules/Widgets/FluentFormWidget.php:897
+#: app/Modules/Widgets/FluentFormWidget.php:1197
+#: app/Modules/Widgets/FluentFormWidget.php:1252
+#: app/Modules/Widgets/FluentFormWidget.php:1343
+#: app/Modules/Widgets/FluentFormWidget.php:1427
+#: app/Modules/Widgets/FluentFormWidget.php:1930
+#: app/Modules/Widgets/FluentFormWidget.php:2003
+#: app/Modules/Widgets/FluentFormWidget.php:2350
+#: app/Modules/Widgets/OxyFluentFormWidget.php:213
+#: app/Modules/Widgets/OxyFluentFormWidget.php:335
+#: app/Modules/Widgets/OxyFluentFormWidget.php:816
+#: app/Modules/Widgets/OxyFluentFormWidget.php:893
+msgid "Color"
+msgstr "Couleur"
+
+#: app/Modules/Widgets/FluentFormWidget.php:269
+#: app/Modules/Widgets/FluentFormWidget.php:342
+#: app/Modules/Widgets/FluentFormWidget.php:551
+#: app/Modules/Widgets/FluentFormWidget.php:788
+#: app/Modules/Widgets/FluentFormWidget.php:889
+#: app/Modules/Widgets/FluentFormWidget.php:1210
+#: app/Modules/Widgets/FluentFormWidget.php:1265
+#: app/Modules/Widgets/FluentFormWidget.php:1368
+#: app/Modules/Widgets/FluentFormWidget.php:1464
+#: app/Modules/Widgets/FluentFormWidget.php:1539
+#: app/Modules/Widgets/FluentFormWidget.php:1616
+#: app/Modules/Widgets/FluentFormWidget.php:1734
+#: app/Modules/Widgets/FluentFormWidget.php:1942
+#: app/Modules/Widgets/FluentFormWidget.php:2215
+#: app/Modules/Widgets/FluentFormWidget.php:2329
+#: app/Modules/Widgets/FluentFormWidget.php:2363
+#: app/Modules/Widgets/OxyFluentFormWidget.php:129
+#: app/Modules/Widgets/OxyFluentFormWidget.php:273
+#: app/Modules/Widgets/OxyFluentFormWidget.php:393
+#: app/Modules/Widgets/OxyFluentFormWidget.php:420
+#: app/Modules/Widgets/OxyFluentFormWidget.php:776
+#: app/Modules/Widgets/OxyFluentFormWidget.php:861
+#: app/Modules/Widgets/OxyFluentFormWidget.php:924
+#: app/Modules/Widgets/OxyFluentFormWidget.php:956
+msgid "Typography"
+msgstr "Typographie"
 
 #: app/Modules/Registerer/TranslationString.php:15
 #: app/Modules/Widgets/FluentFormWidget.php:122
@@ -1395,14 +2298,6 @@ msgstr "Largeur"
 msgid "Margin"
 msgstr "Marge"
 
-#: app/Services/FormBuilder/ElementCustomization.php:264
-msgid "Enable Per step data save (Save and Continue)"
-msgstr "Activer l’enregistrement des données par étape (enregistrer et continuer)"
-
-#: app/Modules/Widgets/FluentFormWidget.php:1451
-msgid "Odd Item Background Color"
-msgstr "Couleur d’arrière-plan des éléments impairs"
-
 #: app/Modules/Widgets/FluentFormWidget.php:302
 #: app/Modules/Widgets/FluentFormWidget.php:376
 #: app/Modules/Widgets/FluentFormWidget.php:485
@@ -1425,6 +2320,14 @@ msgstr "Couleur d’arrière-plan des éléments impairs"
 msgid "Padding"
 msgstr "Marge interne"
 
+#: app/Services/FormBuilder/ElementCustomization.php:264
+msgid "Enable Per step data save (Save and Continue)"
+msgstr "Activer l’enregistrement des données par étape (enregistrer et continuer)"
+
+#: app/Modules/Widgets/FluentFormWidget.php:1451
+msgid "Odd Item Background Color"
+msgstr "Couleur d’arrière-plan des éléments impairs"
+
 #: app/Services/FormBuilder/ElementCustomization.php:270
 msgid "If you enable this then users will see the form as step page where it has been left"
 msgstr "Si vous activé ceci, les utilisateurs et utilisatrices verront le formulaire comme la page d’étape où il a été laissé"
@@ -1437,10 +2340,6 @@ msgstr "Voyons comment vos formulaires se sont comportés au cours des derniers 
 msgid "Resume Step from last form session"
 msgstr "Reprendre l’étape de la dernière session du formulaire"
 
-#: app/Services/FormBuilder/ElementCustomization.php:265
-msgid "If you enable this then on each step change the data current step data will be persisted in a step form<br />Your users can resume the form where they left"
-msgstr "Si vous activez ceci, à chaque modification de l’étape, les données de l’étape actuelle seront conservées dans un formulaire d’étape.<br />Vos utilisateurs/utilisatrices peuvent reprendre le formulaire là où ils l’ont laissé."
-
 #: app/Modules/Component/Component.php:537
 msgid "The form can be filled in the actual <a href=\"%s\">website url</a>."
 msgstr "Le formulaire peut être rempli dans <a href=\"%s\">l’URL du site</a>actuelle."
@@ -1448,6 +2347,10 @@ msgstr "Le formulaire peut être rempli dans <a href=\"%s\">l’URL du site</a>a
 #: app/Helpers/Helper.php:681
 msgid "Select a Fluent Forms"
 msgstr "Choisir un formulaire Fluent"
+
+#: app/Services/FormBuilder/ElementCustomization.php:265
+msgid "If you enable this then on each step change the data current step data will be persisted in a step form<br />Your users can resume the form where they left"
+msgstr "Si vous activez ceci, à chaque modification de l’étape, les données de l’étape actuelle seront conservées dans un formulaire d’étape.<br />Vos utilisateurs et utilisatrices peuvent reprendre le formulaire là où ils l’ont laissé."
 
 #: app/Hooks/filters.php:17
 msgid "Fluent Forms PDF"
@@ -1575,6 +2478,10 @@ msgstr "Résumé du paiement"
 msgid "Payment Settings"
 msgstr "Réglages de paiement"
 
+#: app/Services/GlobalSettings/GlobalSettingsHelper.php:228
+msgid "Global settings has been saved"
+msgstr "Les réglages globaux ont été enregistrés"
+
 #: app/Services/FormBuilder/ElementCustomization.php:560
 msgid "Prefix Label"
 msgstr "Étiquette de préfixe"
@@ -1697,6 +2604,10 @@ msgstr "Sélectionner le pays"
 msgid "Form Analytics has been successfully resetted"
 msgstr "Les statistiques du formulaire ont bien été réinitialisées"
 
+#: app/Services/FormBuilder/EditorShortCode.php:23
+msgid "HTTP Referer URL"
+msgstr "URL de référence HTTP"
+
 #: app/Modules/Registerer/Menu.php:473 app/Modules/Registerer/Menu.php:474
 #: app/Views/admin/global_menu.php:44
 msgid "Tools"
@@ -1747,10 +2658,6 @@ msgstr "ID de la soumission"
 msgid "Submission Serial Number"
 msgstr "Numéro de série de soumission"
 
-#: app/Services/FormBuilder/EditorShortCode.php:67
-msgid "User Id"
-msgstr "ID de l’utilisateur"
-
 #: app/Services/FormBuilder/EditorShortCode.php:68
 msgid "Submitter Browser"
 msgstr "Navigateur du soumetteur"
@@ -1767,6 +2674,10 @@ msgstr "Statut de soumission"
 msgid "Submission Create Date"
 msgstr "Date de création de l’envoi"
 
+#: app/Services/FormBuilder/EditorShortCode.php:67
+msgid "User Id"
+msgstr "ID du compte"
+
 #: app/Services/Integrations/MailChimp/MailChimpIntegration.php:132
 msgid "Configuration required!"
 msgstr "Configuration nécessaire !"
@@ -1778,10 +2689,6 @@ msgstr "https://wpmanageninja.com/wp-fluent-form/"
 #: app/Services/FormBuilder/ElementCustomization.php:525
 msgid "Max Repeat inputs"
 msgstr "Nombre maximum de répétition de champ"
-
-#: app/Services/FormBuilder/ElementCustomization.php:526
-msgid "Please provide max number of rows the user can fill up for this repeat field. Keep blank/0 for unlimited numbers"
-msgstr "Veuillez fournir le nombre maximum de lignes que l’utilisateur peut remplir pour ce champ de répétition. Laissez vide/0 pour les numéros illimités"
 
 #: app/Modules/Registerer/TranslationString.php:627
 #: app/Modules/Registerer/TranslationString.php:916
@@ -1853,6 +2760,10 @@ msgstr "Vos réglages ont été mis à jour et déconnectés"
 #: app/Services/Integrations/MailChimp/MailChimpIntegration.php:135
 msgid "Set Mailchimp API"
 msgstr "Définir la clé de l’API de Mailchimp"
+
+#: app/Services/FormBuilder/ElementCustomization.php:526
+msgid "Please provide max number of rows the user can fill up for this repeat field. Keep blank/0 for unlimited numbers"
+msgstr "Veuillez fournir le nombre maximum de lignes que l’utilisateur ou l’utilisatrice peut remplir pour ce champ de répétition. Laissez vide/0 pour un nombre illimité"
 
 #: app/Modules/Registerer/Menu.php:504 app/Modules/Registerer/Menu.php:505
 #: app/Views/admin/global_menu.php:67 boot/app.php:84
@@ -2523,14 +3434,6 @@ msgstr "Attribut de nom"
 msgid "This is the field name attributes which is used to submit form data, name attribute must be unique."
 msgstr "Il s’agit des attributs de nom de champ qui sont utilisés pour soumettre les données du formulaire, l’attribut de nom doit être unique."
 
-#: app/Services/FormBuilder/ElementCustomization.php:46
-msgid "This is the field title the user will see when filling out the form."
-msgstr "C’est le titre de champ que l’utilisateur verra lors du remplissage du formulaire."
-
-#: app/Services/FormBuilder/ElementCustomization.php:51
-msgid "Determine the position of label title where the user will see this. By choosing \"Default\", global label placement setting will be applied."
-msgstr "Déterminez la position où l’utilisateur verra le libellé du titre. En choisissant « Par défaut », les réglages globaux de placement des libellés seront appliqués."
-
 #: app/Modules/Registerer/TranslationString.php:1074
 #: app/Modules/Widgets/FluentFormWidget.php:450
 #: app/Services/FormBuilder/ElementCustomization.php:55
@@ -2583,10 +3486,6 @@ msgstr "Format de la date"
 msgid "Select Date Format"
 msgstr "Sélectionnez un format de date"
 
-#: app/Services/FormBuilder/ElementCustomization.php:114
-msgid "Select any date format from the dropdown. The user will be able to choose a date in this given format."
-msgstr "Sélectionnez n’importe quel format de date à partir du menu déroulant. L’utilisateur pourra choisir une date dans ce format donné."
-
 #: app/Services/FormBuilder/ElementCustomization.php:120
 msgid "Rows"
 msgstr "Lignes"
@@ -2625,10 +3524,6 @@ msgstr "Nom du crochet WordPress pour accrocher quelque chose à cet endroit."
 msgid "Show Checkbox"
 msgstr "Afficher la case à cocher"
 
-#: app/Services/FormBuilder/ElementCustomization.php:189
-msgid "Your valid HTML code will be shown to the user as normal content."
-msgstr "Votre code HTML valide sera affiché à l’utilisateur comme contenu normal."
-
 #: app/Modules/Registerer/TranslationString.php:367
 #: app/Modules/Widgets/FluentFormWidget.php:135
 #: app/Modules/Widgets/FluentFormWidget.php:314
@@ -2637,10 +3532,6 @@ msgstr "Votre code HTML valide sera affiché à l’utilisateur comme contenu no
 #: app/Services/FormBuilder/ElementSettingsPlacement.php:494
 msgid "Description"
 msgstr "Déscription"
-
-#: app/Services/FormBuilder/ElementCustomization.php:196
-msgid "Description will be shown to the user as normal text content."
-msgstr "La description sera montrée à l’utilisateur comme contenu de texte normal."
 
 #: app/Modules/Registerer/TranslationString.php:102
 #: app/Services/FormBuilder/ElementCustomization.php:200
@@ -2678,18 +3569,9 @@ msgstr "Shortcode"
 msgid "Apply styles provided here"
 msgstr "Appliquer les styles définis ici"
 
-#: app/Services/FormBuilder/ElementCustomization.php:250
-#: app/Services/FormBuilder/ElementCustomization.php:322
-msgid "Form step titles, user will see each title in each step."
-msgstr "Titres des étapes du formulaire, l’utilisateur verra chaque titre à chaque étape."
-
 #: app/Services/FormBuilder/ElementCustomization.php:279
 msgid "Progress Indicator"
 msgstr "Indicateur de progrès"
-
-#: app/Services/FormBuilder/ElementCustomization.php:280
-msgid "Select any of them below, user will see progress of form steps according to your choice."
-msgstr "Sélectionnez l’un d’eux ci-dessous, l’utilisateur verra la progression des étapes du formulaire en fonction de votre choix."
 
 #: app/Modules/Registerer/TranslationString.php:1014
 #: app/Services/FormBuilder/ElementCustomization.php:292
@@ -2729,10 +3611,6 @@ msgstr "Activer les colonnes multiples"
 #: app/Services/FormBuilder/ElementCustomization.php:354
 msgid "Repeat Fields"
 msgstr "Répéter les champs"
-
-#: app/Services/FormBuilder/ElementCustomization.php:355
-msgid "This is a form field which a user will be able to repeat."
-msgstr "Il s’agit d’un champ de formulaire qu’un utilisateur sera en mesure de répéter."
 
 #: app/Services/FormBuilder/ElementCustomization.php:359
 msgid "Admin Field Label"
@@ -2838,17 +3716,9 @@ msgstr "Valeur maximale pour le champ d’entrée."
 msgid "Max File Size"
 msgstr "Taille maximale du fichier"
 
-#: app/Services/FormBuilder/ValidationRuleSettings.php:148
-msgid "The file size limit uploaded by the user."
-msgstr "La limite de taille de fichier téléchargée par l’utilisateur."
-
 #: app/Services/FormBuilder/ValidationRuleSettings.php:153
 msgid "Max Files Count"
 msgstr "Nombre de fichiers Max"
-
-#: app/Services/FormBuilder/ValidationRuleSettings.php:154
-msgid "Maximum user file upload number."
-msgstr "Numéro de téléchargement maximum de fichiers utilisateur."
 
 #: app/Services/FormBuilder/ValidationRuleSettings.php:213
 msgid "Zip Archives"
@@ -3095,10 +3965,6 @@ msgstr "Si vous souhaitez pré-remplir la valeur d’un champ, saisissez-le ici.
 msgid "Date / Time"
 msgstr "Date/heure"
 
-#: app/Services/FormBuilder/ElementCustomization.php:106
-msgid "This is the field placeholder, the user will see this if the input field is empty."
-msgstr "C’est le texte indicatif du champ, l’utilisateur ou l’utilisatrice verra ceci si le champ de saisie est vide."
-
 #: app/Services/FormBuilder/ElementCustomization.php:230
 msgid "Your shortcode to render desired content in current place."
 msgstr "Votre code court pour afficher le contenu souhaité à l’emplacement actuel."
@@ -3154,6 +4020,55 @@ msgstr "Conteneur à 2 colonnes"
 #: app/Services/FormBuilder/DefaultElements.php:1390
 msgid "Three Column Container"
 msgstr "Conteneur à 3 colonnes"
+
+#: app/Services/FormBuilder/ValidationRuleSettings.php:154
+msgid "Maximum user file upload number."
+msgstr "Nombre de téléversements maximum de fichiers du compte."
+
+#: app/Services/FormBuilder/ValidationRuleSettings.php:148
+msgid "The file size limit uploaded by the user."
+msgstr "La limite de taille de fichier téléversé par l’internaute."
+
+#: app/Services/FormBuilder/ElementCustomization.php:355
+msgid "This is a form field which a user will be able to repeat."
+msgstr "C’est un champ de formulaire qu’un internaute sera en mesure de répéter."
+
+#: app/Services/FormBuilder/ElementCustomization.php:280
+msgid "Select any of them below, user will see progress of form steps according to your choice."
+msgstr "Sélectionnez l’un d’eux ci-dessous, l’internaute verra la progression des étapes du formulaire en fonction de votre choix."
+
+#: app/Services/FormBuilder/ElementCustomization.php:250
+#: app/Services/FormBuilder/ElementCustomization.php:322
+msgid "Form step titles, user will see each title in each step."
+msgstr "Titres des étapes du formulaire, l’internaute verra chaque titre à chaque étape."
+
+#: app/Services/FormBuilder/ElementCustomization.php:196
+msgid "Description will be shown to the user as normal text content."
+msgstr "La description sera affichée à l’internaute comme contenu texte normal."
+
+#: app/Services/FormBuilder/ElementCustomization.php:189
+msgid "Your valid HTML code will be shown to the user as normal content."
+msgstr "Votre code HTML valide sera affiché à l’internaute comme contenu normal."
+
+#: app/Services/FormBuilder/ElementCustomization.php:114
+msgid "Select any date format from the dropdown. The user will be able to choose a date in this given format."
+msgstr "Sélectionnez n’importe quel format de date à partir du menu déroulant. L’internaute pourra choisir une date dans ce format donné."
+
+#: app/Services/FormBuilder/ElementCustomization.php:106
+msgid "This is the field placeholder, the user will see this if the input field is empty."
+msgstr "C’est le texte indicatif du champ, l’internaute verra ceci si le champ de saisie est vide."
+
+#: app/Services/FormBuilder/ElementCustomization.php:51
+msgid "Determine the position of label title where the user will see this. By choosing \"Default\", global label placement setting will be applied."
+msgstr "Déterminez la position où l’internaute verra le libellé du titre. En choisissant « Par défaut », les réglages de placement des libellés globaux seront appliqués."
+
+#: app/Services/FormBuilder/ElementCustomization.php:46
+msgid "This is the field title the user will see when filling out the form."
+msgstr "C’est le titre de champ que l’internaute verra lors du remplissage du formulaire."
+
+#: app/Modules/Form/Settings/FormCssJs.php:217
+msgid "Custom CSS & JS successfully updated"
+msgstr "CSS et JS personnalisés bien mis à jour"
 
 #: app/Modules/Registerer/AdminBar.php:110 app/Modules/Registerer/Menu.php:377
 msgid "Fluent Forms Pro"
@@ -4170,11 +5085,6 @@ msgstr "Liste des formulaires"
 msgid "Form Settings"
 msgstr "Options du formulaire"
 
-#: app/Modules/Registerer/Menu.php:633
-#: app/Modules/Registerer/TranslationString.php:426
-msgid "Email Notifications"
-msgstr "E-mail des notifications"
-
 #: app/Services/FormBuilder/EditorShortCode.php:20
 msgid "Embedded Post/Page ID"
 msgstr "ID Article/Page intégré"
@@ -4186,22 +5096,6 @@ msgstr "Titre Article/Page intégré"
 #: app/Services/FormBuilder/EditorShortCode.php:22
 msgid "Embedded URL"
 msgstr "URL intégrée"
-
-#: app/Services/FormBuilder/EditorShortCode.php:26
-msgid "User First Name"
-msgstr "Prénom de l’utilisateur"
-
-#: app/Services/FormBuilder/EditorShortCode.php:29
-msgid "User Username"
-msgstr "Nom d’utilisateur"
-
-#: app/Services/FormBuilder/EditorShortCode.php:30
-msgid "User Browser Client"
-msgstr "Navigateur de l’utilisateur"
-
-#: app/Services/FormBuilder/EditorShortCode.php:31
-msgid "User Operating System"
-msgstr "Système d’exploitation de l’utilisateur"
 
 #: app/Services/FormBuilder/CountryNames.php:23
 msgid "American Samoa"
@@ -4447,3 +5341,24 @@ msgstr "Vos détails reCAPTCHA sont déjà valides. Pas besoin d’enregistrer �
 #: app/Services/GlobalSettings/GlobalSettingsHelper.php:246
 msgid "Your settings has been updated"
 msgstr "Vos réglages ont été mis à jour"
+
+#: app/Services/FormBuilder/EditorShortCode.php:31
+msgid "User Operating System"
+msgstr "Système d’exploitation de l’internaute"
+
+#: app/Services/FormBuilder/EditorShortCode.php:30
+msgid "User Browser Client"
+msgstr "Navigateur de l’internaute"
+
+#: app/Services/FormBuilder/EditorShortCode.php:29
+msgid "User Username"
+msgstr "Identifiant du compte"
+
+#: app/Services/FormBuilder/EditorShortCode.php:26
+msgid "User First Name"
+msgstr "Prénom de l’utilisateur/utilisatrice"
+
+#: app/Modules/Registerer/Menu.php:633
+#: app/Modules/Registerer/TranslationString.php:426
+msgid "Email Notifications"
+msgstr "Notifications par e-mail"
